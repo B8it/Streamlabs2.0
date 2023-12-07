@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+body {
+  font-family: 'Syne Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin: 80px 10px;
+}
+
+video {
+  width: 40vw;
+  height: 30vw;
+  margin: 2rem;
+  background: #2c3e50;
+}
+
+.videos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+h4, h1, ol {
+  margin: 0;
+}
+p{
+  margin: 5px 0;
+}
+textarea{
+  width: 80%;
+  height: 80px;
+}
+button{
+  display: block;
+  margin: 10px 0;
+}
+.top-bar {
+  background-color: skyblue ;
+  padding: 0 40px;
+}
+.row {
+  padding: 5px 0;
+}
+.main {
+ background-color: #f6f6ef ;
+ padding: 10px 15px;
+}
+.comments{ 
+margin: 40px 0;
+}
+.bottom, top-comment{
+  display: flex;
+  color: gray;
+  font-size: 12px;
+}
+.timestamp {
+  padding-right: 10px;
+}
+comment-ts{
+  
+}
